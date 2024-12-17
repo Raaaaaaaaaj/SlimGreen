@@ -1,0 +1,632 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+@font-face {
+	font-family: 'QuicheFont';
+	src: url('./Fonts/Quiche-Sans-Font/QuicheSans-Black.otf');
+}
+
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none
+}
+
+
+*,
+body,
+img {
+	margin: 0;
+	padding: 0
+}
+
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+}
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block
+}
+
+
+ol,
+ul {
+	list-style: none
+}
+
+
+blockquote,
+q {
+	quotes: none
+}
+
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+	content: '';
+	content: none
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+
+* {
+	box-sizing: border-box
+}
+
+
+a {
+	outline: 0;
+	border: none;
+}
+
+
+a:focus {
+	outline: 0;
+	border: none;
+}
+
+
+a:hover {
+	outline: 0;
+	border: none;
+}
+
+
+button {
+	outline: 0;
+	border: none;
+}
+
+
+button:hover {
+	outline: 0;
+	border: none;
+}
+
+
+button:focus {
+	outline: 0;
+	border: none;
+}
+
+
+.spacer {
+	clear: both;
+	line-height: 0;
+	font-size: 0
+}
+
+
+img {
+	border: 0;
+	height: auto;
+	max-width: 100%
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal
+}
+
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none
+}
+
+
+html {
+	overflow-x: hidden;
+}
+
+
+body {
+	font-family: Roboto, sans-serif;
+	overflow-x: hidden;
+}
+
+@media only screen and (max-width :400px) {
+	.mobfont16{
+		font-size: 16px !important;
+	}
+	.mobfont26{
+		font-size: 26px !important;
+	}
+	.mobfont32{
+		font-size: 32px !important;
+	}
+}
+
+@media only screen and (min-width :400px) {
+	.mobfont16{
+		font-size: 16px !important;
+	}
+	.mobfont26{
+		font-size: 26px !important;
+	}
+	.mobfont32{
+		font-size: 32px !important;
+	}
+}
+
+
+@media only screen and (min-width :480px) {
+	.mobfont16{
+		font-size: 16px !important;
+	}
+	.mobfont26{
+		font-size: 26px !important;
+	}
+	.mobfont32{
+		font-size: 32px !important;
+	}
+}
+
+@media only screen and (max-width :576px) {
+	.mobfont16{
+		font-size: 16px !important;
+	}
+	.mobfont26{
+		font-size: 26px !important;
+	}
+	.mobfont32{
+		font-size: 32px !important;
+	}
+	.tobehiddenInSmall{
+		display: none;
+	}
+	.tobeshownInSmall{
+		display: block !important;
+	}
+}
+
+@media only screen and (min-width :576px) {
+	
+	.tobeshownInSmall{
+		display: none !important;
+	}
+}
+
+
+@media only screen and (min-width :768px) {
+	/* .container {
+		max-width: 750px
+	} */
+}
+
+
+@media only screen and (min-width :992px) {
+	/* .container {
+		max-width: 970px
+	} */
+}
+
+
+@media only screen and (min-width :1200px) {
+	/* .container {
+		max-width: 1170px
+	} */
+}
+
+
+@media only screen and (min-width :1280px) {
+	/* .container {
+		max-width: 1250px
+	} */
+}
+
+
+@media only screen and (min-width :1366px) {
+	/* .container {
+		max-width: 1336px;
+	} */
+}
+
+
+/* Avijit styles */
+.mt-25{
+	margin-top: 25px;
+}
+.mt-50{
+	margin-top: 50px;
+}
+.mt-75{
+	margin-top: 75px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.mb-25{
+	margin-bottom: 25px;
+}
+.mb-50{
+	margin-bottom: 50px;
+}
+.mb-75{
+	margin-bottom: 75px;
+}
+.mb-100{
+	margin-bottom: 100px;
+}
+.pt-25{
+	padding-top: 25px;
+}
+.pt-50{
+	padding-top: 50px;
+}
+.pt-75{
+	padding-top: 75px;
+}
+.pt-100{
+	padding-top: 100px;
+}
+.pb-25{
+	padding-bottom: 25px;
+}
+.pb-50{
+	padding-bottom: 50px;
+}
+.pb-75{
+	padding-bottom: 75px;
+}
+.pb-100{
+	padding-bottom: 100px;
+}
+.fw700{
+	font-weight: 700;
+}
+.fw600 {
+	font-weight: 600;
+}
+.fw500{
+	font-weight: 500 !important;
+}
+.fw900{
+	font-weight: 900;
+}
+.font13 {
+	font-size: 13px;
+}
+
+.font16 {
+	font-size: 16px;
+}
+
+.font18 {
+	font-size: 18px;
+}
+
+.font20 {
+	font-size: 20px;
+}
+
+.font24{
+	font-size: 24px;
+}
+
+.font32{
+	font-size: 32px;
+}
+
+.font50 {
+	font-size: 50px;
+}
+
+.topnav {
+	background-color: #162c28;
+	padding: 10px 10px;
+}
+
+.timer {
+	background-color: #e85d4c;
+	border-radius: 6px;
+	padding: 5px 5px;
+}
+
+.truck {
+	background-image: url(assets/Truck.png);
+	background-position: center;
+	background-size: cover;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.settings {
+	background-image: url(assets/Settings.png);
+	display: block;
+	background-position: center;
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+}
+
+.topnavIconCont {
+	display: contents;
+}
+
+/* As seen on */
+.companies {
+	background-color: #2a513a;
+}
+
+.bgabstract {
+	position: relative;
+	top: 50%;
+	left: 10%;
+}
+
+.intergreen{
+	font-family: "Inter", sans-serif;
+	color: #1e462e !important;
+}
+
+.interdarkgreen{
+	font-family: "Inter", sans-serif;
+	color: #192f2b;
+}
+
+.quichefont {
+	font-family: QuicheFont;
+}
+
+.quichefontWhite {
+	font-family: QuicheFont;
+	color: #fafbfa;
+}
+
+.quichefontGreen {
+	font-family: QuicheFont;
+	color: #162c28;
+}
+
+.lightgrayinter{
+	color: #a1a1a1;
+	font-family: "Inter", sans-serif;
+}
+
+.whiteinter {
+	color: #ced0d0;
+	font-family: "Inter", sans-serif;
+}
+
+.blackinter {
+	color: #1e1e28;
+	font-family: "Inter";
+}
+
+.redishgrayinter {
+	color: #333333;
+	font-family: "Inter", sans-serif;
+}
+
+.lightgrayinter {
+	color: #505050;
+	font-family: "Inter", sans-serif;
+}
+
+.blackinter {
+	color: #212429;
+	font-family: "Inter", sans-serif;
+}
+
+.powerfulSupFood {
+	background-color: #f1fbf5;
+}
+
+.quizbtn {
+	background-color: #ff8a1f;
+	border-radius: 39px;
+	padding: 10px 88px 10px 88px;
+	color: #fff;
+}
+
+.quizbtn:hover {
+	background-color: #ce7421;
+	border: 1px solid #fff;
+	color: white;
+}
+
+.lock {
+	background-image: url(assets/Lock.png);
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+
+.ctaImg {
+	width: 25px;
+}
+input[type="text"]:focus {
+    outline: none;         
+    box-shadow: none;   
+}
+input[type="text"]::placeholder {
+	color: #fff; 
+	font-family: "Inter", sans-serif;
+
+}
+.searchbox-wrap {
+	display: flex;
+	width: 500px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+	input {
+		flex: 1;
+		padding: 30px 20px;
+		width: 580px;
+		height: 64px;
+		font-size: 1.1em;
+		background-color: #1e462e;
+		-webkit-border-top-left-radius: 8px;
+		-webkit-border-bottom-left-radius: 8px;
+		border-top-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+		box-shadow: none;
+		border: 1px solid #fff;
+		border-right: none;
+		box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+
+	}
+
+	button {
+		padding-right: 10px;
+		/* width: 580px; */
+		height: 64px;
+		background-color: #1e462e;
+		-webkit-border-top-right-radius: 8px;
+		-webkit-border-bottom-right-radius: 8px;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19);
+		border: 1px solid #fff;
+		border-left: none;
+		cursor: pointer;
+		cursor: hand;
+
+		span {
+			/* margin-left     : 50px; */
+			padding: 16px 32px;
+			font-size: 0.9em;
+			text-transform: uppercase;
+			font-weight: 300;
+			color: #fff;
+			background-color: #fff;
+			border-radius: 8px;
+			box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+		}
+	}
+}
+.accordion-button:not(.collapsed) {
+	color: white !important;
+    background-color: #374e4b !important;
+    /* box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color); */
+}
+.accordion-button{
+	background-color: #f5fff8;
+}
+.accordion-button:focus {
+    outline: none; 
+    box-shadow: none;
+	border: none;
+}
+.accordion-body{
+	background-color: #f5fff8;
+}
+.FAQ{
+	background-color: #f5fff8;
+}

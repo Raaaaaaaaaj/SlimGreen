@@ -7,6 +7,9 @@
 			('./Fonts/Quiche-Sans-Font/QuicheSans-Medium.otf');
 }
 
+html{
+	overflow-x: hidden !important;
+}
 
 a,
 a:focus,
@@ -236,6 +239,9 @@ body {
 }
 
 @media only screen and (max-width :400px) {
+	html{
+		overflow-x: hidden !important;
+	}
 	.mobfont16{
 		font-size: 16px !important;
 	}
@@ -257,14 +263,22 @@ body {
 		font-size: 10px !important;
 	}
 	.quizbtn{
-		padding: 20px 84px 20px 84px !important;
+		width: 350px !important;
+		height: 50px !important;
+		/* margin-left: 20px !important; */
 	}
 	.searchbox-wrap{
 		width: 320px !important;
 	}
+	.multiPayment{
+		margin-left: 6px !important;
+	}
 }
 
 @media only screen and (min-width :400px) {
+	html{
+		overflow-x: hidden !important;
+	}
 	.mobfont16{
 		font-size: 16px !important;
 	}
@@ -284,13 +298,13 @@ body {
 	.fa-star{
 		font-size: 10px !important;
 	}
-	.quizbtn{
-		padding: 20px 84px 20px 84px !important;
-	}
 }
 
 
 @media only screen and (min-width :480px) {
+	html{
+		overflow-x: hidden !important;
+	}
 	.slimgreen3img{
 		max-width: 100% !important;
 		right: 5% !important;
@@ -300,9 +314,6 @@ body {
 	}
 	.fa-star{
 		font-size: 10px !important;
-	}
-	.quizbtn{
-		padding: 20px 84px 20px 84px !important;
 	}
 	/* .mobfont16{
 		font-size: 16px !important;
@@ -316,6 +327,9 @@ body {
 }
 
 @media only screen and (max-width :576px) {
+	html{
+		overflow-x: hidden !important;
+	}
 	/* .mobfont16{
 		font-size: 16px !important;
 	}
@@ -334,6 +348,9 @@ body {
 }
 
 @media only screen and (min-width :576px) {
+	html{
+		overflow-x: hidden !important;
+	}
 	
 	.tobeshownInSmall{
 		display: none !important;
@@ -342,6 +359,9 @@ body {
 
 
 @media only screen and (min-width :768px) {
+	html{
+		overflow-x: hidden !important;
+	}
 	/* .container {
 		max-width: 750px
 	} */
@@ -349,6 +369,9 @@ body {
 
 
 @media only screen and (min-width :992px) {
+	html{
+		overflow-x: hidden !important;
+	}
 	/* .container {
 		max-width: 970px
 	} */
@@ -356,6 +379,9 @@ body {
 
 
 @media only screen and (min-width :1200px) {
+	html{
+		overflow-x: hidden !important;
+	}
 	/* .container {
 		max-width: 1170px
 	} */
@@ -363,6 +389,9 @@ body {
 
 
 @media only screen and (min-width :1280px) {
+	html{
+		overflow-x: hidden !important;
+	}
 	/* .container {
 		max-width: 1250px
 	} */
@@ -370,6 +399,9 @@ body {
 
 
 @media only screen and (min-width :1366px) {
+	html{
+		overflow-x: hidden !important;
+	}
 	/* .container {
 		max-width: 1336px;
 	} */
@@ -533,10 +565,6 @@ body {
 	color: #162c28;
 }
 
-.lightgrayinter{
-	color: #a1a1a1;
-	font-family: "Inter", sans-serif;
-}
 
 .whiteinter {
 	color: #ced0d0;
@@ -554,7 +582,7 @@ body {
 }
 
 .lightgrayinter {
-	color: #505050;
+	color: #a1a1a1 !important;
 	font-family: "Inter", sans-serif;
 }
 
@@ -570,7 +598,8 @@ body {
 .quizbtn {
 	background-color: #ff8a1f;
 	border-radius: 39px;
-	padding: 10px 88px 10px 88px;
+	height: 56px;
+	width: 367px;
 	color: #fff;
 }
 

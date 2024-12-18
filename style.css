@@ -3,7 +3,8 @@
 
 @font-face {
 	font-family: 'QuicheFont';
-	src: url('./Fonts/Quiche-Sans-Font/QuicheSans-Black.otf');
+	src: url('./Fonts/Quiche-Sans-Font/QuicheSans-Black.otf'),
+			('./Fonts/Quiche-Sans-Font/QuicheSans-Medium.otf');
 }
 
 
@@ -244,6 +245,23 @@ body {
 	.mobfont32{
 		font-size: 32px !important;
 	}
+	.slimgreen3img{
+		max-width: 100% !important;
+		right: 5% !important;
+		bottom: 10%;
+	}
+	.product{
+		margin-top: 60px !important;
+	}
+	.fa-star{
+		font-size: 10px !important;
+	}
+	.quizbtn{
+		padding: 20px 84px 20px 84px !important;
+	}
+	.searchbox-wrap{
+		width: 320px !important;
+	}
 }
 
 @media only screen and (min-width :400px) {
@@ -256,11 +274,37 @@ body {
 	.mobfont32{
 		font-size: 32px !important;
 	}
+	.slimgreen3img{
+		max-width: 100% !important;
+		right: 5% !important;
+	}
+	.product{
+		margin-top: 60px !important;
+	}
+	.fa-star{
+		font-size: 10px !important;
+	}
+	.quizbtn{
+		padding: 20px 84px 20px 84px !important;
+	}
 }
 
 
 @media only screen and (min-width :480px) {
-	.mobfont16{
+	.slimgreen3img{
+		max-width: 100% !important;
+		right: 5% !important;
+	}
+	.product{
+		margin-top: 60px !important;
+	}
+	.fa-star{
+		font-size: 10px !important;
+	}
+	.quizbtn{
+		padding: 20px 84px 20px 84px !important;
+	}
+	/* .mobfont16{
 		font-size: 16px !important;
 	}
 	.mobfont26{
@@ -268,11 +312,11 @@ body {
 	}
 	.mobfont32{
 		font-size: 32px !important;
-	}
+	} */
 }
 
 @media only screen and (max-width :576px) {
-	.mobfont16{
+	/* .mobfont16{
 		font-size: 16px !important;
 	}
 	.mobfont26{
@@ -280,7 +324,7 @@ body {
 	}
 	.mobfont32{
 		font-size: 32px !important;
-	}
+	} */
 	.tobehiddenInSmall{
 		display: none;
 	}
@@ -546,7 +590,7 @@ body {
 }
 
 .ctaImg {
-	width: 25px;
+	width: 40px;
 }
 input[type="text"]:focus {
     outline: none;         
@@ -629,4 +673,12 @@ input[type="text"]::placeholder {
 }
 .FAQ{
 	background-color: #f5fff8;
+}
+
+
+.slimgreen3img{
+	max-width: 120%;
+	position: relative;
+	right: 20%;
+    bottom: 10%;
 }

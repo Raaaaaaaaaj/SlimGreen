@@ -221,7 +221,7 @@ button:focus {
 img {
 	border: 0;
 	height: auto;
-	max-width: 100%
+	max-width: 100%;
 }
 
 
@@ -661,10 +661,10 @@ input[type="text"]::placeholder {
     z-index: 100;
 }
 .slimgreen3img{
-	max-width: 120%;
+	max-width: 135%;
 	position: relative;
-	right: 20%;
-    bottom: 10%;
+	right: 28%;
+	top: -80px;
 }
 .pros{
 	background-color: #f5fff8;
@@ -754,11 +754,22 @@ input[type="text"]::placeholder {
 	height: 24px;
 	width: 24px;
 }
+.wrong{
+	background-image: url(assets/wrong.png);
+	background-position: center;
+	background-size: cover;
+	display: block;
+	height: 22px;
+	width: 22px;
+}
 .girdsystem{
-	display: grid;
-	justify-content: center;
-	border-bottom: 1px solid #e6e6e6;
-	width: width-content;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+    /* width: fit-content; */
+    margin-bottom: 1rem;
 }
 .ml35{
 	margin-left: 35px;
@@ -769,7 +780,7 @@ input[type="text"]::placeholder {
     max-width: 162%;
     position: relative;
     top: 5%;
-	right: 33%;
+	right: 0;
 }
 .ladyTexttobeShownInSmall{
 	display: none;
@@ -782,7 +793,32 @@ input[type="text"]::placeholder {
 	padding-right: 8rem;
 }
 
+.prosDiv{
+	width: 250px;
+	height: auto;
+	border-radius: 8px;
+	position: relative;
+	box-shadow: 0px 0px 24.33px 0px #0000000F;
+}
+.girdsystem:last-child{
+	border-bottom: none;
+}
+.slimrelative{
+	background-color: #044f15;
+	width: fit-content;
+	border-radius: 8px;
+	position: absolute;
+	left: 17%;
+	top: -2%;
+}
 
+.othertext{
+	font-size: 14px;
+}
+.superfoodsmall{
+	display: block;
+	width: 100% !important;
+  }
 
 
 
@@ -889,6 +925,7 @@ input[type="text"]::placeholder {
 	  }
 	  .superfoodsmall{
 		display: block;
+		width: 100% !important;
 	  }
 	  .superfoodlarge{
 		display: none;
@@ -899,6 +936,22 @@ input[type="text"]::placeholder {
 		height: 56px;
 		width: 338px;
 		color: #fff;
+	}
+	.prosDiv{
+		width: 165px;
+		margin-left: 10px;
+	}
+	.slimrelative {
+		background-color: #044f15;
+		width: fit-content;
+		border-radius: 8px;
+		position: absolute;
+		left: 9%;
+		top: -2%;
+		font-size: 15px;
+	}
+	.tobeshownInSmall{
+		display: block !important;
 	}
 }
 
@@ -915,10 +968,10 @@ input[type="text"]::placeholder {
 	.mobfont32{
 		font-size: 32px !important;
 	}
-	.slimgreen3img{
+	/* .slimgreen3img{
 		max-width: 100% !important;
 		right: 5% !important;
-	}
+	} */
 	.product{
 		margin-top: 60px !important;
 	}
@@ -957,16 +1010,15 @@ input[type="text"]::placeholder {
 	  .testimonial-img{
 		left: 50%;
 	  }
+	  .tobeshownInSmall{
+		display: block !important;
+	}
 }
 
 
 @media only screen and (min-width :480px) {
 	html{
 		overflow-x: hidden !important;
-	}
-	.slimgreen3img{
-		max-width: 100% !important;
-		right: 5% !important;
 	}
 	.product{
 		margin-top: 60px !important;
@@ -1003,11 +1055,16 @@ input[type="text"]::placeholder {
 	  .erase:hover{
 		cursor:pointer;
 	  }
-	  .slimgreen3img {
+	  /* .slimgreen3img {
         max-width: 85% !important;
         left: 7% !important;
-      }
-
+      } */
+	.tobehiddenInSmall{
+		display: none !important;
+	}
+	.tobeshownInSmall{
+		display: block !important;
+	}
 }
 
  @media only screen and (max-width :576px) {
@@ -1015,11 +1072,9 @@ input[type="text"]::placeholder {
 		overflow-x: hidden !important;
 	}
 	.tobehiddenInSmall{
-		display: none;
+		display: none !important;
 	}
-	.tobeshownInSmall{
-		display: block !important;
-	}
+	
 	.buttonInside{
 		position:relative;
 		margin-bottom:10px;

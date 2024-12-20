@@ -737,11 +737,45 @@ input[type="text"]::placeholder {
 	height: 40px;
 	margin: 0 10px;
 }
+.carousel-control-prev {
+    position: inherit;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.carousel-control-next {
+    position: inherit;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background-color: #2d413d !important;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
 #prevBtn{
 	background-color: #bac0bf;
 }
 #nextBtn{
-	background-color: #162c28;
+	background-color: #2d413d !important;
 }
 .correct{
 	background-color: white;
@@ -876,9 +910,6 @@ input[type="text"]::placeholder {
 		top: 0% !important;
 		right: 0% !important;
 	}
-	.tobehiddenInSmall{
-		display: none;
-	}
 	.ladyTexttobeHiddenInSmall{
 		display: none !important;
 	}
@@ -953,6 +984,9 @@ input[type="text"]::placeholder {
 	.tobeshownInSmall{
 		display: block !important;
 	}
+	.tobehiddenInSmall{
+		display: none !important;
+	}
 }
 
 @media only screen and (min-width :400px) {
@@ -1010,9 +1044,6 @@ input[type="text"]::placeholder {
 	  .testimonial-img{
 		left: 50%;
 	  }
-	  .tobeshownInSmall{
-		display: block !important;
-	}
 }
 
 
@@ -1059,22 +1090,12 @@ input[type="text"]::placeholder {
         max-width: 85% !important;
         left: 7% !important;
       } */
-	.tobehiddenInSmall{
-		display: none !important;
-	}
-	.tobeshownInSmall{
-		display: block !important;
-	}
 }
 
  @media only screen and (max-width :576px) {
 	html{
 		overflow-x: hidden !important;
 	}
-	.tobehiddenInSmall{
-		display: none !important;
-	}
-	
 	.buttonInside{
 		position:relative;
 		margin-bottom:10px;
@@ -1143,15 +1164,12 @@ input[type="text"]::placeholder {
 	.superfoodlarge{
 		display: none;
 	}
+	
 } 
 
 @media only screen and (min-width :576px) {
 	html{
 		overflow-x: hidden !important;
-	}
-	
-	.tobeshownInSmall{
-		display: none !important;
 	}
 	.buttonInside{
 		position:relative;
@@ -1188,6 +1206,12 @@ input[type="text"]::placeholder {
 	  .superfoodlarge{
 		display: block;
 	  }
+	  .tobeshownInSmall{
+		display: none !important;
+	}
+	.tobeshownInSmall{
+		display: none !important;
+	}
 }
 
 
